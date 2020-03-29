@@ -31,7 +31,7 @@
 												       <div class="container"
 			            <div class="hero-unit">
 					                  <h1></h1>
-							                  <h1>Welcome Anageshwar to your AWS cloud website</h1>
+							                  <h1>Welcome Anageshwar to your AWS cloud website. Have a nice day</h1>
 									                  
 											                  <p>Anageshwar
 													  		
