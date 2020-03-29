@@ -14,8 +14,8 @@ ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
 ENV APACHE_LOG_DIR /var/log/apache2
 EXPOSE 80
-COPY website-AWS-Jenkins-Docker-Selenium/src/ /var/www/html
-COPY website-AWS-Jenkins-Docker-Selenium/websitetestin-selenium.jar /home
+COPY src/ /var/www/html
+#COPY website-AWS-Jenkins-Docker-Selenium/websitetestin-selenium.jar /home
 EXPOSE 8000
 #RUN rm /var/www/html/index.html
 CMD [ "php", "/var/www/html/index.php" ]
